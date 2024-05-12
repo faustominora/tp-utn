@@ -13,7 +13,8 @@
     box-sizing: border-box; 
     text-decoration: none; 
     list-style: none;
-    font-family:'Poppins',sans-serif; 
+    font-family:'Poppins',sans-serif;
+    scroll-behavior: smooth; 
 }
 
 header{
@@ -364,4 +365,62 @@ form {
 
 .btn-2:hover {
     background:var(--terceary-color);
+}
+
+
+/* ------------------------FOOTER-------------------------------- */
+
+.footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 50px 0;
+    text-align: left;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container i {
+    cursor: pointer;
+}
+
+.title-footer {
+    padding-bottom: 10px;
+}
+
+.phone, .email {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.texto-email {
+    margin-top: 10px;
+}
+
+.phone:hover, .email:hover {
+    color: var(--terceary-color);
+}
+
+
+/* ------------------------WSPP-------------------------------- */
+
+
+.container-boton{
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 25px;  
+}
+
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width:120px;
+    transition: ease 1s;
 }
