@@ -3,7 +3,8 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #ffff;
-    --terceary-color:  #FF0000;
+    --tertiary-color:  #FF0000;
+    --quaternary-color:#FFA500;
 }
 
 *{
@@ -103,7 +104,7 @@ header{
 .header-txt p{
     font-weight: 500;
     font-size: 18px;
-    color: ORANGE;
+    color: var(--quaternary-color);
 }
 
 .header-img{
@@ -114,4 +115,83 @@ header{
 .airjordan{
     height: 100%;
     width: 100%;
+}
+
+/* -------------------------CATEGORIAS-------------------------------------- */
+
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    padding:  50px;
+    max-height: 80vh;
+    padding-left: 23%;
+    padding-right: 23%;
+    text-align: center;
+}
+.category h2:hover{
+    color: var(--quaternary-color);
+}
+
+h2{
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 800;
+}
+
+.info-1{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(/assets/images/categoria-indumentaria.webp); 
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.info-1:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.788); 
+}
+
+.info-2{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(/assets/images/zapatillas.png); 
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size:contain; 
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    cursor: pointer;   
+}
+
+.info-2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.788); 
+}
+
+.info-3{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(/assets/images/categoria-accesorios.jpg); 
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;  
+    cursor: pointer; 
+}
+
+.info-3:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.788); 
 }
