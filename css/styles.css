@@ -55,7 +55,6 @@ header{
 
 .menu .navbar ul li a {
     font-size:18px;
-
     padding: 20px;
     color: var(--primary-color);
     display: block;
@@ -206,11 +205,11 @@ h2{
     padding: 50px; 
     max-height: auto;
     background-color: var(--secondary-color);
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .title{
-    padding:50px;
+    padding:10px;
 }
 
 .title h2 {
@@ -534,7 +533,7 @@ form {
         text-align: center; 
     }
     .boton{
-        width:60px;
+        width:80px;
         transition: ease 1s;
     }
 }
