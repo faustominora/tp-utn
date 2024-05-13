@@ -424,3 +424,103 @@ form {
     width:120px;
     transition: ease 1s;
 }
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    /*-------------------- Redimension "NAVBAR" -------------------- */    
+    .menu{
+        padding: 30px; 
+    }
+
+    .menu label {
+        display: initial;       
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;                 
+        background-color: rgba(255, 255, 255, 0.762);
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked  ~ .navbar {
+        display: initial;   
+    }
+    
+
+    /*-------------------- Redimension "HEADER" -------------------- */
+    .header-content{
+        flex-direction: column;     
+        padding: 180px 30px 30 px 30px;
+    }
+
+    .header-txt{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .header-txt h1{
+        font-size: 50px;
+    }
+    
+    .header-txt p {
+        margin: 60px;
+    }
+    .header-img{
+        width: 500px;
+    }
+
+    /*-------------------- Redimension "CATEGORY" -------------------- */
+
+    .category{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-1 , .info-2, .info-3{
+        margin-bottom: 50px;
+    }
+
+
+    /*-------------------- Redimension "PRODUCTS" -------------------- */
+    .products{
+        align-items: center;
+    }
+    .title h2{    
+        font-size: 50px;
+    }
+    .products-grid{
+        margin-left: 32%;
+        margin-right: 30%;
+        grid-template-columns: 1fr; 
+        gap: 1em;
+    }
+
+
+    /*-------------------- Redimension "CONTACTO" -------------------- */
+    .contacts {
+        font-size: 50px;
+    }
+
+    form{
+        width: 400px; 
+        height: auto;
+    }
+
+    
+    /*-------------------- Redimension "FOOTER" -------------------- */
+    .footer{
+        text-align: center; 
+    }
+}
