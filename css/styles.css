@@ -429,7 +429,7 @@ form {
 
 /* RESPONSIVE */
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 480px) {
 
     /*-------------------- Redimension "NAVBAR" -------------------- */    
     .menu{
@@ -456,9 +456,10 @@ form {
     #menu:checked  ~ .navbar {
         display: initial;   
     }
-    
+}    
 
     /*-------------------- Redimension "HEADER" -------------------- */
+@media only screen and (max-width: 480px) {
     .header-content{
         flex-direction: column;     
         padding: 180px 30px 30 px 30px;
@@ -471,18 +472,18 @@ form {
     }
 
     .header-txt h1{
-        font-size: 50px;
+        font-size: 20px;
     }
     
     .header-txt p {
-        margin: 60px;
+        margin: 15px;
     }
     .header-img{
-        width: 500px;
+        width: 250px;
     }
-
+}
     /*-------------------- Redimension "CATEGORY" -------------------- */
-
+@media only screen and (max-width: 480px){
     .category{
         flex-direction: column;
         align-items: center;
@@ -491,14 +492,16 @@ form {
     .info-1 , .info-2, .info-3{
         margin-bottom: 50px;
     }
-
+}
 
     /*-------------------- Redimension "PRODUCTS" -------------------- */
+
+@media only screen and (max-width: 480px){
     .products{
         align-items: center;
     }
     .title h2{    
-        font-size: 50px;
+        font-size: 20px;
     }
     .products-grid{
         margin-left: 32%;
@@ -506,20 +509,23 @@ form {
         grid-template-columns: 1fr; 
         gap: 1em;
     }
-
+}
 
     /*-------------------- Redimension "CONTACTO" -------------------- */
-    .contacts {
-        font-size: 50px;
+   
+@media only screen and (max-width: 480px){
+       .contacts {
+        font-size: 20px;
     }
 
     form{
-        width: 400px; 
+        width: 370px; 
         height: auto;
     }
-
+}
     
     /*-------------------- Redimension "FOOTER" -------------------- */
+@media only screen and (max-width: 480px){
     .footer{
         text-align: center; 
     }
