@@ -421,7 +421,7 @@ form {
 }
 
 .boton{
-    width:120px;
+    width:110px;
     transition: ease 1s;
 }
 
@@ -476,7 +476,7 @@ form {
     }
 
     .header-txt h1{
-        font-size: 20px;
+        font-size: 40px;
     }
     
     .header-txt p {
@@ -505,7 +505,7 @@ form {
         align-items: center;
     }
     .title h2{    
-        font-size: 350px;
+        font-size: 35px;
     }
     .products-grid{
         margin-left: 32%;
@@ -532,5 +532,9 @@ form {
 @media only screen and (max-width: 480px){
     .footer{
         text-align: center; 
+    }
+    .boton{
+        width:60px;
+        transition: ease 1s;
     }
 }
