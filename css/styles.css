@@ -456,6 +456,10 @@ form {
     #menu:checked  ~ .navbar {
         display: initial;   
     }
+    
+    .logo{
+        width: 50px;
+    }
 }    
 
     /*-------------------- Redimension "HEADER" -------------------- */
@@ -501,7 +505,7 @@ form {
         align-items: center;
     }
     .title h2{    
-        font-size: 20px;
+        font-size: 350px;
     }
     .products-grid{
         margin-left: 32%;
@@ -515,7 +519,7 @@ form {
    
 @media only screen and (max-width: 480px){
        .contacts {
-        font-size: 20px;
+        font-size: 35px;
     }
 
     form{
