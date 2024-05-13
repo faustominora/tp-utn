@@ -126,8 +126,8 @@ header{
     justify-content: space-between;
     padding:  50px;
     max-height: 80vh;
-    padding-left: 23%;
-    padding-right: 23%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
 }
 .category h2:hover{
