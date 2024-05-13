@@ -476,13 +476,14 @@ form {
 
     .header-txt h1{
         font-size: 40px;
+        line-height: 70px;
     }
     
     .header-txt p {
-        margin: 15px;
+        margin: 10px;
     }
     .header-img{
-        width: 250px;
+        width: 300px;
     }
 }
     /*-------------------- Redimension "CATEGORY" -------------------- */
